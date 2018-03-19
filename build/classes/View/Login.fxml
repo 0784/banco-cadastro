@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="376.0" prefWidth="249.0" style="-fx-background-color: #ad0000;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.LoginController">
+   <children>
+      <TextField fx:id="txnome" layoutX="41.0" layoutY="67.0" prefHeight="39.0" prefWidth="167.0" promptText="Nome" style="-fx-background-color: #ffffff;">
+         <font>
+            <Font name="Arial Black" size="12.0" />
+         </font></TextField>
+      <PasswordField fx:id="txsenha" layoutX="41.0" layoutY="122.0" prefHeight="39.0" prefWidth="167.0" promptText="Senha" style="-fx-background-color: #ffffff;">
+         <font>
+            <Font name="Arial Black" size="12.0" />
+         </font></PasswordField>
+      <Button fx:id="btentrar" layoutX="160.0" layoutY="187.0" mnemonicParsing="false" style="-fx-background-color: #ffffff;" text="Entrar" />
+      <Button fx:id="btsair" layoutX="41.0" layoutY="187.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="48.0" style="-fx-background-color: #ffffff;" text="Sair" />
+   </children>
+</AnchorPane>

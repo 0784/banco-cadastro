@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="322.0" prefWidth="364.0" style="-fx-background-color: #ad0000;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.CadastrarVendedorController">
+  <children>
+      <Label fx:id="lbnomevd" layoutX="41.0" layoutY="84.0" text="Nome" textFill="WHITE" />
+      <Label fx:id="lbnumvenda" layoutX="41.0" layoutY="161.0" text="Nº de Vendas" textFill="WHITE" />
+      <TextField fx:id="txnomevd" layoutX="41.0" layoutY="101.0" prefHeight="25.0" prefWidth="261.0" promptText="Digite seu nome" />
+      <TextField fx:id="txnumvenda" layoutX="41.0" layoutY="178.0" prefHeight="25.0" prefWidth="220.0" promptText="digite o número de vendas" />
+      <Text fx:id="text1" layoutX="52.0" layoutY="52.0" strokeType="OUTSIDE" strokeWidth="0.0" text="CADASTRO DE VENDEDORES" textAlignment="CENTER" underline="true">
+         <font>
+            <Font name="Alternate Gothic No.2 BT" size="31.0" />
+         </font>
+         <fill>
+            <LinearGradient endX="0.6047619047619048" endY="0.080952380952381" startX="0.6095238095238096" startY="0.9571428571428572">
+               <stops>
+                  <Stop color="#222121" />
+                  <Stop color="WHITE" offset="1.0" />
+               </stops>
+            </LinearGradient>
+         </fill>
+      </Text>
+      <Button fx:id="btcancelar" layoutX="41.0" layoutY="266.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="67.0" text="Cancelar" />
+      <Button fx:id="btcadastrar" layoutX="246.0" layoutY="266.0" mnemonicParsing="false" text="Cadastrar" />
+   </children> 
+</AnchorPane>

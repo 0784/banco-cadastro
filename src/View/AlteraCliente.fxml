@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="322.0" prefWidth="364.0" style="-fx-background-color: #ad0000;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.AlteraClienteController">
+   <children>
+      <Label fx:id="lbnome" layoutX="47.0" layoutY="94.0" text="Nome" textFill="WHITE" />
+      <Label fx:id="lbnumcompra" layoutX="47.0" layoutY="144.0" text="Nº de compras" textFill="WHITE" />
+      <Label fx:id="lbdebito" layoutX="45.0" layoutY="195.0" text="Débito" textFill="WHITE" />
+      <TextField fx:id="txnome" layoutX="48.0" layoutY="111.0" prefHeight="25.0" prefWidth="245.0" promptText="Digite seu nome" />
+      <TextField fx:id="txnumcompra" layoutX="47.0" layoutY="161.0" prefHeight="25.0" prefWidth="190.0" promptText="digite o número de compras" />
+      <TextField fx:id="txdebito" layoutX="47.0" layoutY="212.0" prefHeight="25.0" prefWidth="190.0" promptText="digite o débito" />
+      <Text fx:id="text" layoutX="65.0" layoutY="55.0" strokeType="OUTSIDE" strokeWidth="0.0" text="ALTERAÇÃO DE CLIENTES" textAlignment="CENTER" underline="true">
+         <font>
+            <Font name="Alternate Gothic No.2 BT" size="31.0" />
+         </font>
+         <fill>
+            <LinearGradient endX="0.6285714285714286" endY="0.080952380952381" startX="0.6333333333333333" startY="0.9619047619047619">
+               <stops>
+                  <Stop color="#282828" />
+                  <Stop color="WHITE" offset="1.0" />
+               </stops>
+            </LinearGradient>
+         </fill>
+      </Text>
+      <Button fx:id="btcancelar" layoutX="49.0" layoutY="266.0" mnemonicParsing="false" text="Cancelar" />
+      <Button fx:id="btatualizar" layoutX="241.0" layoutY="266.0" mnemonicParsing="false" text="Alterar" />
+      <Label fx:id="lbid" layoutX="47.0" layoutY="77.0" prefHeight="17.0" prefWidth="43.0" text="ID" textFill="WHITE" />
+      <Label fx:id="lbid1" layoutX="153.0" layoutY="85.0" prefHeight="17.0" prefWidth="43.0" />
+   </children>
+</AnchorPane>

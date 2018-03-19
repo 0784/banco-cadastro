@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="322.0" prefWidth="364.0" style="-fx-background-color: #ad0000;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.CadastrarClienteController">
+   <children>
+      <Label fx:id="lbnome" layoutX="51.0" layoutY="80.0" text="Nome" textFill="WHITE" />
+      <Label fx:id="lbnumcompra" layoutX="51.0" layoutY="144.0" text="Nº de compras" textFill="WHITE" />
+      <Label fx:id="lbdebito" layoutX="50.0" layoutY="210.0" text="Débito" textFill="WHITE" />
+      <TextField fx:id="txnome" layoutX="51.0" layoutY="97.0" prefHeight="25.0" prefWidth="240.0" promptText="Digite seu nome" />
+      <TextField fx:id="txnumcompra" layoutX="51.0" layoutY="161.0" prefHeight="25.0" prefWidth="191.0" promptText="digite o número de compras" />
+      <TextField fx:id="txdebito" layoutX="51.0" layoutY="227.0" prefHeight="25.0" prefWidth="191.0" promptText="digite o débito" />
+      <Text fx:id="text" layoutX="69.0" layoutY="57.0" strokeType="OUTSIDE" strokeWidth="0.0" text="CADASTRO DE CLIENTES" textAlignment="CENTER" underline="true">
+         <font>
+            <Font name="Alternate Gothic No.2 BT" size="31.0" />
+         </font>
+         <fill>
+            <LinearGradient endX="0.6333333333333334" endY="0.0761904761904762" startX="0.6380952380952382" startY="0.9714285714285715">
+               <stops>
+                  <Stop color="#252525" />
+                  <Stop color="WHITE" offset="1.0" />
+               </stops>
+            </LinearGradient>
+         </fill>
+      </Text>
+      <Button fx:id="btcancelar" layoutX="51.0" layoutY="266.0" mnemonicParsing="false" text="Cancelar" />
+      <Button fx:id="btcadastrar" layoutX="227.0" layoutY="266.0" mnemonicParsing="false" text="Cadastrar" />
+   </children>
+</AnchorPane>

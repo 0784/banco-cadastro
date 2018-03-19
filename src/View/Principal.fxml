@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="342.0" prefWidth="192.0" style="-fx-background-color: #ad0000;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.PrincipalController">
+   <children>
+      <Button fx:id="btcadastrar" layoutX="54.0" layoutY="216.0" mnemonicParsing="false" prefHeight="35.0" prefWidth="157.0" style="-fx-background-color: #ffffff;" text="CADASTRAR CLIENTE" textAlignment="CENTER" />
+      <Text fill="WHITE" layoutX="-1.0" layoutY="42.0" stroke="BLACK" strokeType="OUTSIDE" strokeWidth="0.0" text="SISTEMA DE CADASTRO DE CLIENTES" textAlignment="CENTER" underline="true" wrappingWidth="267.0">
+         <font>
+            <Font name="Alternate Gothic No.2 BT" size="26.0" />
+         </font>
+      </Text>
+      <Button fx:id="btselecionar" layoutX="55.0" layoutY="262.0" mnemonicParsing="false" prefHeight="35.0" prefWidth="157.0" style="-fx-background-color: #ffffff;" text="SELECIONAR CLIENTE" />
+      <Button fx:id="btcadastrarvd" layoutX="55.0" layoutY="125.0" mnemonicParsing="false" prefHeight="35.0" prefWidth="157.0" style="-fx-background-color: #ffffff;" text="CADASTRAR VENDEDOR" textAlignment="CENTER" />
+      <Button fx:id="btselecionarvd" layoutX="54.0" layoutY="171.0" mnemonicParsing="false" prefHeight="35.0" prefWidth="157.0" style="-fx-background-color: #ffffff;" text="SELECIONAR VENDEDOR" />
+   </children>
+</AnchorPane>
